@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("Conversor de Vetor Decimal para Outra Base")
-st.markdown("Sistema 'Bobo' usando Python (Streamlit)")
+st.markdown(" usando Python (Streamlit)")
 
 limite = st.number_input(
     'Digite o limite do vetor (começando do 0):', 
@@ -45,4 +45,5 @@ for decimal in vetor_decimal:
     saida_tabela += f"Decimal: {decimal}{espacos} -> Base {base}: {convertido}\n"
 
 st.header("Resultado da Tabela")
+
 st.text(saida_tabela)
