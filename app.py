@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Conversor de Vetor Decimal para Outra Base")
+st.title("Conversor de bases numéricas")
 st.markdown(" usando Python (Streamlit)")
 
 limite = st.number_input(
@@ -47,3 +47,4 @@ for decimal in vetor_decimal:
 st.header("Resultado da Tabela")
 
 st.text(saida_tabela)
+
