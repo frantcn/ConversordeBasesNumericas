@@ -56,7 +56,15 @@ O objetivo do código é criar uma tabela que converte números decimais para qu
 - Poderia ter usado funções prontas do Python, como `bin()`, `oct()`, ou `hex()`, mas preferi implementar a lógica manualmente para entender melhor como funciona a conversão entre bases.
 - O resultado é exibido em formato de tabela usando as funções do Streamlit, facilitando a visualização e a cópia dos dados.
 
-## Como rodar
+## Acesse o app online
+
+Você pode usar o conversor diretamente pelo navegador, sem instalar nada:
+
+👉 [Abrir Conversor de Bases Numéricas](https://conversordebasesnumericas.streamlit.app/)
+
+---
+
+Se quiser rodar localmente, siga as instruções abaixo.
 
 1. Instale o Streamlit:
    ```
