@@ -13,9 +13,9 @@ limite = st.number_input(
 LIMITE = int(limite)
 
 base = st.number_input(
-    'Digite a base para conversão (entre 2 e 36):',
+    'Digite a base para conversão (entre 2 e 16):',
     min_value=2,
-    max_value=36,
+    max_value=16,
     value=2,
     step=1
 )
@@ -35,7 +35,7 @@ for decimal in vetor_decimal:
     else:
         convertido = ""
         numero_atual = decimal
-        digitos = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        digitos = "0123456789ABCDEF"
         while numero_atual > 0:
             resto = numero_atual % base
             convertido = digitos[resto] + convertido
@@ -47,4 +47,5 @@ for decimal in vetor_decimal:
 st.header("Resultado da Tabela")
 
 st.text(saida_tabela)
+
 
