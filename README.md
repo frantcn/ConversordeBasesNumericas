@@ -1,4 +1,6 @@
-# versão 1 pretendo fazer atualizaçôes mas vou deixar os códigos para análise da evolução
+# versão 1 
+
+obs:pretendo fazer atualizaçôes, mas vou deixar os códigos e documetações para análise da evolução
 
 # Conversor de Bases Numéricas
 
