@@ -1,3 +1,5 @@
+# versão 1 pretendo fazer atualizaçôes mas vou deixar os códigos para análise da evolução
+
 # Conversor de Bases Numéricas
 
 ## Resumo
