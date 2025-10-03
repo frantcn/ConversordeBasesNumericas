@@ -2,7 +2,7 @@
 
 ## Resumo
 
-Este é um projeto simples e iniciante, feito para fins de aprendizagem e prática em programação com Python. O objetivo principal é facilitar a conversão de números decimais para outras bases (de 2 a 36), usando uma interface web criada com Streamlit.  
+Este é um projeto simples e iniciante, feito para fins de aprendizagem e prática em programação com Python. O objetivo principal é facilitar a conversão de números decimais para outras bases (de 2 a 16), usando uma interface web criada com Streamlit.  
 O código foi desenvolvido por um estudante do primeiro semestre de Engenharia da Computação, como parte de um desafio proposto em sala de aula.  
 Observação: O projeto utiliza lógica manual para conversão, priorizando o entendimento do funcionamento do algoritmo.
 
